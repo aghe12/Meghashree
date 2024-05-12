@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .jumbotron {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  main{
+    height: 400px;
+  }
